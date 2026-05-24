@@ -66,6 +66,8 @@ app.use(cors({
     "http://localhost:5173",
     "http://localhost:5174",
     "https://your-frontend.onrender.com", // ← replace with your actual frontend URL
+    "https://gamezone-user.onrender.com",
+    "https://gamezone-admin.onrender.com"
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
